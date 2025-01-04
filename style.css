@@ -1,0 +1,262 @@
+
+.eer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+.eer a
+{
+    text-decoration: none;
+    color: white;
+}
+.call:hover
+{
+    color: #01b7a5;
+}
+nav img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+nav img:hover
+{
+  opacity: .8;
+}
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+}
+
+  .navigation li {
+    margin-left: 20px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .navigation a {
+    border-radius: 10px;
+    display: block; 
+    padding: 10px 20px;
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    background-color: #d7d7d7;
+    color: #01b7a5;
+  }
+    .content {
+        background-image: url(IMG_2119.JPG);
+        height: 700px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center; 
+    }
+    .content1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 418px;
+        border:none;
+        width: 723px;
+        margin-top: 160px;
+        background-color: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(10px); 
+       -webkit-backdrop-filter: blur(10px);
+        border-radius: 10px;
+    }
+    #home, #feww, .mi {
+      text-align: center; 
+      width: 100%; 
+      margin: 10px 0;
+  }
+  #home
+  {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: -50px;
+  }
+  #feww
+  {
+    font-size: 17px;
+  }
+  .mi {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 350px;
+      height: 30px;
+      margin-top: 50px;
+    
+  }
+  .mi img
+  {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .mi a
+{
+  text-decoration: none;
+  color: black;
+}
+#chat
+{
+  border: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 110px;
+  height: 25px;
+  background-color: #28190ef3;
+  border-radius: 10px;
+}
+/* #chat a
+{
+  color: rgb(255, 255, 255);
+}
+.chat:hover
+{
+  color: rgb(149, 148, 148);
+} */
+.rr {
+  border-right: .15em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  overflow: hidden; 
+  width: 0; 
+  animation: typing 4s steps(40, end) infinite; 
+  transition: width 1s; 
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+   #about
+   {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color:  #28190e95;
+    border-bottom: 2px solid black;
+   }
+   #Contact
+   {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color:  #28190e95;
+
+   }
+  .con img
+   {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    filter: grayscale(0);
+   }
+   .con img:hover
+   {
+    filter: grayscale(1);
+   }
+   footer
+   {
+    background-color:  #28190ef3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   /* Existing styles... */
+
+/* Media query for tablets (devices with width less than 768px) */
+@media (max-width: 768px) {
+  .navigation, .eer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navigation li {
+    margin: 10px 0; /* More space vertically, less horizontally */
+  }
+  
+  .navigation {
+    margin-right: 0; /* Remove the margin to centralize on smaller screens */
+  }
+
+  .content1 {
+    width: 90%; /* Make the width relative to the screen size */
+    margin-top: 80px; /* Adjusted for better viewing on smaller devices */
+  }
+
+  .mi {
+    flex-direction: column; /* Stack elements vertically */
+    width: 80%; /* Adjust width to fit smaller screens */
+    height: auto; /* Adjust height automatically */
+    margin-top: 20px;
+  }
+
+  .chat{
+    margin: 10px 0 0 0; /* Adjust margin for better spacing */
+    width: 100%; /* Button takes full width of its container */
+  }
+
+  .mi img {
+    margin: 0 auto; /* Center the image within its container */
+    display: block;
+  }
+}
+
+/* Media query for phones (devices with width less than 480px) */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0; /* Add some padding on the top and bottom */
+  }
+
+  .content {
+    height: 500px; /* Adjust height for smaller devices */
+  }
+
+  .content1 {
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 20px; /* Add some padding inside */
+    margin-top: 40px; /* Adjusted for better viewing on very small devices */
+  }
+
+  #home, #feww, .mi {
+    text-align: center;
+    margin: 5px 0; /* Reduce margin for smaller screens */
+  }
+
+  .rr {
+    animation: none; /* Optionally, disable animations on very small devices for performance */
+  }
+}
