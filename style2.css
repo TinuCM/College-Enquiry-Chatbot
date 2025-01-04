@@ -68,7 +68,7 @@ body {
 } */
 .user-message {
     text-align: right;
-    color: blue;
+    color: white;
     margin-left: 235px;
     padding: 10px;
     border-radius: 10px;
@@ -87,7 +87,7 @@ body {
 {
    display: flex;
    justify-content: center;
-   background-color: rgba(0, 0, 0, 0.2);
+   background-color: rgba(0, 0, 0, 0.1);
    width: 318px;
    
    /* padding-top: 10px;
@@ -100,9 +100,9 @@ body {
 }
 .search input
 {
-    color: aliceblue;
+    color: rgb(231, 231, 231);
    border: none;
-   background-color: transparent;
+   background-color: transparent ;
    width: 300px;
 
    
@@ -113,25 +113,27 @@ input:focus {
  
 #sendButton
 {
-   margin-right: 65px;
-   border: none;
-   background-color: rgba(0, 0, 255, 0.557);
-   color: white;
    border-radius: 100%;
-   width: 40px;
-   height: 40px;
+   background-color: #7F675B;
+   border: none;
+   width: 1px;
+   height: 1px;
+   border-radius: 30px;
+   margin-bottom: 40px;
+   margin-right: 73px;
 }
 .modal-content{
     border-radius: 20px;
 }
 .modal-header{
-    color: #e6e6e6;
-    background: linear-gradient(90deg,#3a0ca3 0%,#7209b7 35%, #f72585 100%);
+    color: white;
+    background: linear-gradient(90deg,#7F675B 10%,#D2B48C 45%,#ebbc81  100%);
 
 }
 .modal-footer{
+    justify-content: space-evenly;
     color: #e6e6e6;
-    background: linear-gradient(90deg,#f72585 0%,#7209b7 35%, #3a0ca3 100%);
+    background: linear-gradient(90deg,#FFF7D0 0%,#ebbc81 45%, #3F2B27 100%);
 }
 .chat {
     display: flex;
@@ -150,7 +152,7 @@ input:focus {
 
 
 .user-message {
-    background-color: #d1e7dd; /* Light green background for user messages */
+    background-color: #cb5317; /* Light green background for user messages */
     display: inline-block;
     padding: 10px;
     margin: 5px;
@@ -161,7 +163,8 @@ input:focus {
 }
 
 .bot-message {
-    background-color: #f8d7da; /* Light red background for bot messages */
+    color: white;
+    background-color:#d2ad7de8; /* Light red background for bot messages */
     display: inline-block;
     padding: 10px;
     margin: 5px;
