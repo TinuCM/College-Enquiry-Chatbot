@@ -30,9 +30,13 @@ A chatbot designed to assist users with inquiries about the college, including d
 ## Screenshots
 
 ![Chatbot Home Page](screenshots/ss1.png)
+*Screenshot 1: Chatbot Home Page*
 ![Chatbot Interaction](screenshots/ss2.png)
+*Screenshot 2: Chatbot Interaction*
 ![Fee Details](screenshots/ss3.png)
+*Screenshot 3: Fee Details*
 ![Course Details](screenshots/ss4.png)
+*Screenshot 4: Course Details*
 
 ## Future Enhancements
 
