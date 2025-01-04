@@ -22,15 +22,17 @@ A chatbot designed to assist users with inquiries about the college, including d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/college-enquiry-chatbot.git
+   git clone https://github.com/TinuCM/College-Enquiry-Chatbot.git
    ```
 2. Open the `index.html` file in any modern web browser.
 3. Interact with the chatbot by clicking on the chatbot window (Bootstrap modal) on the homepage.
 
 ## Screenshots
 
-![Chatbot Modal](path/to/screenshot1.png)
-![Chatbot Interaction](path/to/screenshot2.png)
+![Chatbot Home Page](screenshots/ss1.png)
+![Chatbot Interaction](screenshots/ss2.png)
+![Fee Details](screenshots/ss3.png)
+![Course Details](screenshots/ss4.png)
 
 ## Future Enhancements
 
@@ -43,5 +45,5 @@ A chatbot designed to assist users with inquiries about the college, including d
 For any queries or issues, please contact:
 
 - **Name**: Tinu C Mathew
-- **Email**: [your-email@example.com]
-- **GitHub**: [https://github.com/<your-username>](https://github.com/<your-username>)
+- **Email**: [tinucherian229@gmail.com]
+- **GitHub**: [https://github.com/TinuCM](https://github.com/TinuCM)
